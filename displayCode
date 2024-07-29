@@ -4,7 +4,7 @@ module display (
 );
 	// Mapeamento das entradas em BCD.
     // Os segmentos são mapeados como a, b, c, d, e, f, g.
-    // Um valor 1 representa o respectivo segmento aceso.
+    // O valor 1 representa o respectivo segmento aceso.
     
     always_comb begin
         case (in)
